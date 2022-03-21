@@ -1,56 +1,38 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+### 1. Multi-File Upload File
+  - [ ] Summary: This vulnerability is used by uploading a large file that can be uploaded within the control panael of wordpress 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.5
+  - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
+  - [ ] Steps to recreate: Upload a larger than 2mb file within the multi-file uploader that gives a XSS notification alert.
+  - [ ] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+### 2. Authenticated Cross Ste Scripting
+  - [ ] Summary: This vulnerability shows this webpage incorrectly displaying the edit feature in HTML edit mode. 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.3
+  - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. (Required) Vulnerability Name or ID
+### 3. Audio File MP3 Upload XSS
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: 4.2
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
+  - [ ] Steps to recreate: Attempt to upload a MP3 file to the uploader which will results in a XSS notification to appear. 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
