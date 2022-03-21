@@ -25,10 +25,10 @@ Time spent: 5 hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 3. Audio File MP3 Upload XSS
-  - [ ] Summary: 
+  - [ ] Summary: This demonstrates how no encoding on an MP3 FIle upload it can be trageted by an XXS vulnerability.
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: 4.3.13
   - [ ] GIF Walkthrough: <img src="admin.gif" width="800">
   - [ ] Steps to recreate: Attempt to upload a MP3 file to the uploader which will results in a XSS notification to appear. 
   - [ ] Affected source code:
@@ -37,17 +37,6 @@ Time spent: 5 hours spent in total
 ## Assets
 
 List any additional assets, such as scripts or files
-
-## Resources
-
-- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
-- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
-
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while doing the work
 
 ## License
 
