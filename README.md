@@ -7,10 +7,10 @@ Time spent: 5 hours spent in total
 ## Pentesting Report
 
 ### 1. Multi-File Upload File
-  - [ ] Summary: This vulnerability is used by uploading a large file that can be uploaded within the control panael of wordpress 
+  - [ ] Summary: This vulnerability is used by uploading a large file that can be uploaded within the control panel of wordpress 4.2.
     - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 4.2.5
+    - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
   - [ ] Steps to recreate: Upload a larger than 2mb file within the multi-file uploader that gives a XSS notification alert.
   - [ ] Affected source code:
@@ -26,10 +26,10 @@ Time spent: 5 hours spent in total
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 3. Audio File MP3 Upload XSS
   - [ ] Summary: 
-    - Vulnerability types: 4.2
-    - Tested in version:
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: <img src="my_gif_walkthrough_url" width="800">
+  - [ ] GIF Walkthrough: <img src="admin.gif" width="800">
   - [ ] Steps to recreate: Attempt to upload a MP3 file to the uploader which will results in a XSS notification to appear. 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
